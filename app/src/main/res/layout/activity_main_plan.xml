@@ -1,0 +1,296 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Main_plan">
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+
+        <ImageView
+            android:layout_width="match_parent"
+            android:layout_height="146dp"
+            android:layout_margin="15dp"
+            app:srcCompat="@drawable/logonew1"/>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="horizontal">
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:fontFamily="casual"
+                android:gravity="center"
+                android:text="Rawat Rambutmu dari Sekarang!"
+                android:textAlignment="center"
+                android:textAppearance="@style/TextAppearance.AppCompat.Body2"
+                android:textSize="18sp"
+                android:textStyle="bold|italic"
+                android:typeface="serif" />
+
+        </LinearLayout>
+
+        <TextView
+            android:layout_marginLeft="8dp"
+            android:layout_marginRight="8dp"
+            android:layout_marginTop="10dp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:textSize="14dp"
+            android:text="      Bagi kaum pria, cara merawat rambut bukanlah hal yang penting untuk diperhatikan. Berbeda dengan wanita, pria lebih memfokuskan daya tariknya pada bentuk badan. Tidak heran bila banyak di antara kaum adam yang suka pergi ke gym, tapi sangat malas untuk menjaga kesehatan rambut. Padahal rambut yang sehat adalah penunjang dari bentuk badan yang kuat. Memiliki tubuh, kulit yang bagus akan semakin sempurna bila punya gaya rambut sehat."
+            android:textAlignment="viewStart"
+            android:textAppearance="@style/TextAppearance.AppCompat.Body1"
+            tools:ignore="RtlCompat" />
+
+
+        <TextView
+            android:layout_marginLeft="8dp"
+            android:layout_marginRight="8dp"
+            android:layout_marginTop="10dp"
+            android:id="@+id/textView2"
+            android:textSize="14dp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="      Sebetulnya cara merawat rambut bagi pria itu sederhana. Berikut adalah beberapa hal penting yang harus Anda perhatikan untuk memiliki rambut yang sehat, bebas rambut rontok berlebihan, badan kuat, serta kulit yang cerah dalam satu kesatuan."
+            android:textAlignment="viewStart"
+            android:textAppearance="@style/TextAppearance.AppCompat.Body1" />
+
+
+        <TextView
+            android:layout_marginLeft="8dp"
+            android:layout_marginRight="8dp"
+            android:layout_marginTop="10dp"
+            android:id="@+id/textView4"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:fontFamily="sans-serif-black"
+            android:text="1. Perlindungan Terhadap Matahari"
+            android:textAlignment="center"
+            android:textAppearance="@style/TextAppearance.Compat.Notification.Title"
+            android:textSize="18sp" />
+
+
+        <TextView
+            android:layout_marginLeft="8dp"
+            android:layout_marginRight="8dp"
+            android:layout_marginTop="10dp"
+            android:id="@+id/textView5"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textSize="14dp"
+            android:text="  Matahari adalah sumber kehidupan. Tanpanya, tidak bisa dibayangkan bagaimana manusia akan menyesuaikan diri dengan lingkungannya yang dingin menusuk tulang. Tapi ketika siang hari, sinar matahari bisa membahayakan kesehatan rambut."
+            android:textAppearance="@style/TextAppearance.AppCompat" />
+
+
+
+        <TextView
+            android:layout_marginLeft="8dp"
+            android:layout_marginRight="8dp"
+            android:layout_marginTop="10dp"
+            android:id="@+id/textView8"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textSize="14dp"
+            android:text="  Kulit kepala yang terkena panas akan membuat pori-pori mengeluarkan keringat untuk menyeimbangan suhu tubuh. Seperti yang diketahui bahwa keringat yang menempel di rambut akan mengundang debu dan kotoran untuk menempel di helai-helainya. Inilah salah satu penyebab ketombe dan rambut kering yang berdampak panjang pada kesehatan rambut dan kulit kepala."
+            android:textAppearance="@style/TextAppearance.AppCompat" />
+
+
+
+        <TextView
+            android:layout_marginLeft="8dp"
+            android:layout_marginRight="8dp"
+            android:layout_marginTop="10dp"
+            android:id="@+id/textView10"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:fontFamily="sans-serif-black"
+            android:text="2. Bilas Rambut Secara Teratur"
+            android:textAlignment="center"
+            android:textAppearance="@style/TextAppearance.Compat.Notification.Title"
+            android:textSize="18sp" />
+
+
+
+        <TextView
+            android:layout_marginLeft="8dp"
+            android:layout_marginRight="8dp"
+            android:layout_marginTop="10dp"
+            android:id="@+id/textView12"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textSize="14dp"
+            android:text="  Ketika panas matahari tak terhindarkan, dan ketika rambut dan kulit kepala terasa lengket karena kotoran dan keringat, segera bilas kotoran tersebut dengan sampo dan kondisioner untuk menjaganya agar tetap lembut dan segar. Hal ini juga menjadi salah satu alternatif terbaik untuk obat ketombe paling ampuh, karena kulit kepala yang bersih dan terjaga kelembapannya akan terbebas dari masalah yang satu ini."
+            android:textAppearance="@style/TextAppearance.AppCompat" />
+
+
+
+        <TextView
+            android:layout_marginLeft="8dp"
+            android:layout_marginRight="8dp"
+            android:layout_marginTop="10dp"
+            android:id="@+id/textView14"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:fontFamily="sans-serif-black"
+            android:text="3. Kurangi Garam"
+            android:textAlignment="center"
+            android:textAppearance="@style/TextAppearance.Compat.Notification.Title"
+            android:textSize="18sp" />
+
+
+        <TextView
+            android:layout_marginLeft="8dp"
+            android:layout_marginRight="8dp"
+            android:layout_marginTop="10dp"
+            android:id="@+id/textView16"
+            android:textSize="14dp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="  Garam adalah salah satu bumbu dapur paling penting dalam memberikan rasa. Sayur tanpa garam bakal terasa hambar, namun mengonsumsinya terlalu berlebihan akan memberikan dampak yang kurang baik bagi kesehatan."
+            android:textAppearance="@style/TextAppearance.AppCompat" />
+
+
+        <TextView
+            android:layout_marginLeft="8dp"
+            android:layout_marginRight="8dp"
+            android:layout_marginTop="10dp"
+            android:id="@+id/textView18"
+            android:textSize="14dp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="  Salah satu penyebab rambut rontok bisa jadi adalah karena asupan garam. Garam memiliki efek sebagai pengering, yaitu menyerap air keluar dari sel-sel, termasuk kulit kepala. Bila terlalu banyak mengonsumsi garam bisa membuat kulit kepala kehilangan kelembapannya, sekaligus membuat rambut kering, yang menjadi tanda awal terjadinya masalah rambut rontok."
+            android:textAppearance="@style/TextAppearance.AppCompat" />
+
+
+        <TextView
+            android:layout_marginLeft="8dp"
+            android:layout_marginRight="8dp"
+            android:layout_marginTop="10dp"
+            android:id="@+id/textView20"
+            android:textSize="14dp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="  Contoh mudah lain dari buruknya garam bagi kesehatan rambut adalah air laut. Biasanya, setelah berlibur di pantai sambil menikmati deburan ombak, rambut akan terasa kering dan lengket. Bila dibiarkan dan tidak dibilas bisa menyebabkan rambut rontok dan atau ketombe parah yang mengganggu penampilan. Jadi, biasakan untuk mendapatkan asupan garam secukupnya, tidak kurang dan tidak lebih"
+            android:textAppearance="@style/TextAppearance.AppCompat" />
+
+
+
+        <TextView
+            android:layout_marginLeft="8dp"
+            android:layout_marginRight="8dp"
+            android:layout_marginTop="10dp"
+            android:id="@+id/textView22"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:fontFamily="sans-serif-black"
+            android:text="4. Solusi Rambut Rontok"
+            android:textAlignment="center"
+            android:textAppearance="@style/TextAppearance.Compat.Notification.Title"
+            android:textSize="18sp" />
+
+
+
+        <TextView
+            android:layout_marginLeft="8dp"
+            android:layout_marginRight="8dp"
+            android:layout_marginTop="10dp"
+            android:id="@+id/textView24"
+            android:textSize="14dp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="  Tidak ada yang abadi, termasuk umur manusia. Pada waktunya nanti, manusia akan menanggalkan kekuatannya dan memulai proses penuaan. Salah satu komponen tubuh yang melemah adalah rambut. Bagi sebagian orang, masalah penuaan adalah rambut rontok dan kebotakan."
+            android:textAppearance="@style/TextAppearance.AppCompat" />
+
+
+
+        <TextView
+            android:layout_marginLeft="8dp"
+            android:layout_marginRight="8dp"
+            android:layout_marginTop="10dp"
+            android:id="@+id/textView26"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:fontFamily="sans-serif-black"
+            android:text="5. Suplemen Alami"
+            android:textAlignment="center"
+            android:textAppearance="@style/TextAppearance.Compat.Notification.Title"
+            android:textSize="18sp" />
+
+
+        <TextView
+            android:layout_marginLeft="8dp"
+            android:layout_marginRight="8dp"
+            android:layout_marginTop="10dp"
+            android:id="@+id/textView28"
+            android:textSize="14dp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="  Nutrisi, mineral dan vitamin yang terkandung dalam bahan-bahan alami akan menjadi faktor pendukung untuk menjaga mahkota dari bahaya rambut rontok. Sebagai catatan, selalu tambahkan menu-menu makanan penyehat dan penyubur rambut pada menu-menu makanan, seperti apel, anggur, peach, dan banyak lagi lainnya."
+            android:textAppearance="@style/TextAppearance.AppCompat" />
+
+
+        <TextView
+            android:layout_marginLeft="8dp"
+            android:layout_marginRight="8dp"
+            android:layout_marginTop="10dp"
+            android:id="@+id/textView30"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:fontFamily="sans-serif-black"
+            android:text="6. Diet"
+            android:textAlignment="center"
+            android:textAppearance="@style/TextAppearance.Compat.Notification.Title"
+            android:textSize="18sp" />
+
+
+
+        <TextView
+            android:layout_marginLeft="8dp"
+            android:layout_marginRight="8dp"
+            android:layout_marginTop="10dp"
+            android:id="@+id/textView32"
+            android:textSize="14dp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="  Diet di sini bukan dengan cara mengurangi makanan seminim mungkin untuk mendapatkan berat badan ideal, melainkan mengatur pola makan sehingga kandungan vitamin, mineral, dan nutrisi yang ada di dalamnya sesuai dengan yang diperlukan oleh tubuh. Untuk kesuburan dan kesehatan rambut, beberapa menu diet yang bisa dikonsumsi adalah pomegranate, buah beri, serta yang mengandung lemak sehat, seperti alpukat, kacang walnut, atau ikan."
+            android:textAppearance="@style/TextAppearance.AppCompat" />
+
+
+        <TextView
+            android:layout_marginLeft="8dp"
+            android:layout_marginRight="8dp"
+            android:layout_marginTop="10dp"
+            android:id="@+id/textView34"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:fontFamily="sans-serif-black"
+            android:text="7. Olahraga"
+            android:textAlignment="center"
+            android:textAppearance="@style/TextAppearance.Compat.Notification.Title"
+            android:textSize="18sp" />
+
+
+
+        <TextView
+            android:layout_marginLeft="8dp"
+            android:layout_marginRight="8dp"
+            android:layout_marginTop="10dp"
+            android:layout_marginBottom="40dp"
+            android:id="@+id/textView36"
+            android:textSize="14dp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="  Untuk melengkapi semuanya, lakukan olahraga secara teratur. Sudah bukan rahasia lagi bahwa pada tubuh yang sehat, proses regenerasi akan berjalan lebih cepat. Regenerasi ini termasuk untuk sel-sel atau cabang rambut yang rusak. Selain itu, olahraga akan membuat aliran darah menjadi lancar, membuat semua nutrisi dan vitamin sampai ke setiap ujung rambut. Jadi, jangan heran bila orang yang gemar berolahraga, selain punya badan yang segar dan bugar juga memiliki rambut yang selalu menawan."
+            android:textAppearance="@style/TextAppearance.AppCompat" />
+
+
+    </LinearLayout>
+</ScrollView>

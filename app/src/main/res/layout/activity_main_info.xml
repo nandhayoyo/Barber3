@@ -1,0 +1,397 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Main_info"
+    tools:ignore="MissingDefaultResource">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+
+
+        <ImageView
+            android:id="@+id/imageView"
+            app:srcCompat="@drawable/wajahbulat"
+            android:layout_width="120dp"
+            android:layout_height="120dp"
+            android:layout_gravity="center"
+            android:layout_marginTop="20dp"/>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:layout_marginTop="20dp"
+            android:textSize="30dp"
+            android:text="WAJAH BULAT"
+            android:textStyle="bold|italic" />
+        <TextView
+            android:layout_marginLeft="8dp"
+            android:layout_marginRight="8dp"
+            android:layout_marginTop="10dp"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:text="@string/memilih"
+            android:textSize="16dp"
+            android:textAppearance="@style/TextAppearance.AppCompat"/>
+
+        <TextView
+            android:layout_marginLeft="8dp"
+            android:layout_marginRight="8dp"
+            android:layout_marginTop="10dp"
+            android:textSize="16dp"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:textAppearance="@style/TextAppearance.AppCompat"
+            android:text="@string/model"/>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_marginLeft="8dp"
+            android:layout_marginRight="8dp"
+            android:layout_marginTop="10dp"
+            android:textSize="16dp"
+            android:text="@string/jangankan"
+            android:textAppearance="@style/TextAppearance.AppCompat"/>
+        <TextView
+            android:layout_marginLeft="8dp"
+            android:layout_marginRight="8dp"
+            android:layout_marginTop="10dp"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:textSize="16dp"
+            android:textAppearance="@style/TextAppearance.AppCompat"
+            android:text="@string/ciri"/>
+
+        <TextView
+            android:layout_marginLeft="8dp"
+            android:layout_marginRight="8dp"
+            android:layout_marginTop="10dp"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:textSize="16dp"
+            android:text="@string/anda"
+            android:textAppearance="@style/TextAppearance.AppCompat"/>
+
+        <ImageView
+            android:id="@+id/ImageView2"
+            app:srcCompat="@drawable/wajahsegitiga"
+            android:layout_width="120dp"
+            android:layout_height="120dp"
+            android:layout_gravity="center"
+            android:layout_marginTop="20dp"/>
+
+        <TextView
+
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:layout_marginTop="20dp"
+            android:textSize="30dp"
+            android:text="WAJAH SEGITIGA"
+            android:textStyle="bold|italic" />
+
+        <TextView
+            android:textAppearance="@style/TextAppearance.AppCompat"
+            android:layout_marginLeft="8dp"
+            android:layout_marginRight="8dp"
+            android:layout_marginTop="10dp"
+            android:textSize="16dp"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:text="Pembahasan model rambut pria sesuai model rambut pendek sesuai bentuk wajah yang selanjutnya adalah model untuk wajah segitiga. Eits, jangan langsung membayangkan orang dengan wajah yang benar-benar berbentuk seperti segitiga bangun datar ya. Berikut model yang sangat cocok untuk wajah segitiga: "/>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_marginLeft="8dp"
+            android:layout_marginRight="8dp"
+            android:layout_marginTop="10dp"
+            android:textSize="16dp"
+            android:text="@string/model2"
+            android:textAppearance="@style/TextAppearance.AppCompat"/>
+
+        <TextView
+            android:textAppearance="@style/TextAppearance.AppCompat"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_marginLeft="8dp"
+            android:layout_marginRight="8dp"
+            android:layout_marginTop="10dp"
+            android:textSize="16dp"
+            android:text="Orang dengan wajah segitiga dapat terlihat dengan dahinya yang sempit dan rahang lebar seolah menyerupai segitiga. Bentuk wajah segitiga ini juga cenderung memiliki dagu yang panjang sehingga tampak terlihat runcing. (baca juga: Model Rambut Pria Berponi"/>
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_marginLeft="8dp"
+            android:layout_marginRight="8dp"
+            android:layout_marginTop="10dp"
+            android:textSize="16dp"
+            android:textAppearance="@style/TextAppearance.AppCompat"
+            android:text="Untuk Anda yang memiliki bentuk wajah segitiga, model rambut yang pendek dan bisa membuat dahi tampak lebih lebar. Jadi sebaiknya pemilik wajah segitiga tidak menambahkan poni pada potongan model rambutnya karena akan membuat dahi semakin terlihat sempit. Kalaupun sudah terlanjur memiliki poni, Anda bisa menata poni tersebut sehingga tampak berdiri ke atas. Anda juga perlu menghinidari potongan rambut yang terlalu pendek dan tipis di bagian samping kanan kiri kepala karena akan menegaskan kesempitan dahi."/>
+
+        <ImageView
+            android:id="@+id/ImageView3"
+            app:srcCompat="@drawable/wajahpersegi"
+            android:layout_width="120dp"
+            android:layout_height="120dp"
+            android:layout_gravity="center"
+            android:layout_marginTop="20dp"/>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:layout_marginTop="20dp"
+            android:textSize="30dp"
+            android:text="WAJAH PERSEGI"
+            android:textStyle="bold|italic" />
+
+        <TextView
+            android:textAppearance="@style/TextAppearance.AppCompat"
+            android:layout_marginLeft="8dp"
+            android:layout_marginRight="8dp"
+            android:layout_marginTop="10dp"
+            android:textSize="16dp"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:text="@string/la1"/>
+        <TextView
+            android:textAppearance="@style/TextAppearance.AppCompat"
+            android:layout_marginLeft="8dp"
+            android:layout_marginRight="8dp"
+            android:layout_marginTop="10dp"
+            android:layout_width="match_parent"
+            android:textSize="16dp"
+            android:layout_height="match_parent"
+            android:text="@string/la2"/>
+        <TextView
+            android:layout_marginLeft="8dp"
+            android:layout_marginRight="8dp"
+            android:layout_marginTop="10dp"
+            android:textSize="16dp"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:text="@string/la3"
+            android:textAppearance="@style/TextAppearance.AppCompat"/>
+        <TextView
+            android:textAppearance="@style/TextAppearance.AppCompat"
+            android:layout_marginLeft="8dp"
+            android:layout_marginRight="8dp"
+            android:layout_marginTop="10dp"
+            android:textSize="16dp"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:text="@string/la4"/>
+
+        <TextView
+            android:textAppearance="@style/TextAppearance.AppCompat"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="8dp"
+            android:layout_marginTop="10dp"
+            android:layout_marginRight="8dp"
+            android:textSize="16dp"
+            android:text="@string/la5" />
+
+        <ImageView
+            android:id="@+id/ImageView4"
+            app:srcCompat="@drawable/wajahoval"
+            android:layout_width="120dp"
+            android:layout_height="120dp"
+            android:layout_gravity="center"
+            android:layout_marginTop="20dp"/>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:layout_marginTop="20dp"
+            android:textSize="30dp"
+            android:text="WAJAH OVAL"
+            android:textStyle="bold|italic" />
+
+        <TextView
+            android:textAppearance="@style/TextAppearance.AppCompat"
+            android:layout_marginLeft="8dp"
+            android:layout_marginRight="8dp"
+            android:layout_marginTop="10dp"
+            android:textSize="16dp"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:text="Jika Anda memiliki wajah berbentuk oval, Anda bisa mulai mencoba berbagai model rambut pria sesuai bentuk wajah yang bagus dan unik supaya tidak cepat bosan. Seperti pada wajah berbentuk persegi, wajah yang memiliki bentuk oval juga cenderung cocok dengan hampir semua gaya rambut. Bentuk model rambut yang cocok untuk wajah oval adalah:
+"/>
+        <TextView
+            android:textAppearance="@style/TextAppearance.AppCompat"
+            android:layout_marginLeft="8dp"
+            android:layout_marginRight="8dp"
+            android:layout_marginTop="10dp"
+            android:textSize="16dp"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:text="Bentuk wajah oval ini sangat disukai kaum wanita karena membuat mereka terlihat lebih langsing dan kurus, meski mungkin hal tersebut tidak terlalu diperhatikan oleh pria, sebagai berikut:"/>
+
+        <TextView
+            android:layout_marginLeft="8dp"
+            android:layout_marginRight="8dp"
+            android:layout_marginTop="10dp"
+            android:textSize="16dp"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:textAppearance="@style/TextAppearance.AppCompat"
+            android:text="Model The Mop, Model Angular Fringe, Model Classic
+"/>
+        <TextView
+            android:layout_marginLeft="8dp"
+            android:layout_marginRight="8dp"
+            android:layout_marginTop="10dp"
+            android:textSize="16dp"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:textAppearance="@style/TextAppearance.AppCompat"
+            android:text="Ciri khas dari wajah oval adalah ukuran dahi dan pipi yang sama dengan ditambah dagu yang tampak lancip, membuat pemiliknya tidak akan kesulitan dalam memilih model rambut."/>
+        <TextView
+            android:layout_marginLeft="8dp"
+            android:layout_marginRight="8dp"
+            android:layout_marginTop="10dp"
+            android:textSize="16dp"
+            android:textAppearance="@style/TextAppearance.AppCompat"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:text="Anda bisa memiliki model rambut yang pendek seperti undercut, atau potongan yang lebih panjang sekalipun untuk membuat wajah Anda terlihat lebih kalem dan santai. (baca juga: Model Rambut Mohawk"/>
+
+        <TextView
+            android:layout_marginLeft="8dp"
+            android:layout_marginRight="8dp"
+            android:layout_marginTop="10dp"
+            android:textSize="16dp"
+            android:textAppearance="@style/TextAppearance.AppCompat"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:text="Anda juga bisa memilih potongan rambut semi panjang atau model tanggung untuk menyamarkan dagu yang lancip, juga bisa menambahkan poni di bagian dahi."/>
+
+        <TextView
+            android:layout_marginLeft="8dp"
+            android:layout_marginRight="8dp"
+            android:layout_marginTop="10dp"
+            android:textSize="16dp"
+            android:textAppearance="@style/TextAppearance.AppCompat"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:text="Namun Anda perlu sedikit berhati-hati dalam memakai poni atau permainan rambut yang tebal di bagian samping karena bisa-bisa akan membuat wajah terlihat bulat."/>
+
+
+        <ImageView
+            android:id="@+id/ImageView7"
+            app:srcCompat="@drawable/wajahlonjong"
+            android:layout_width="120dp"
+            android:layout_height="120dp"
+            android:layout_gravity="center"
+            android:layout_marginTop="20dp"/>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:layout_marginTop="20dp"
+            android:textSize="30dp"
+            android:text="WAJAH LONJONG"
+            android:textStyle="bold|italic" />
+
+        <TextView
+            android:textAppearance="@style/TextAppearance.AppCompat"
+            android:layout_marginLeft="8dp"
+            android:layout_marginRight="8dp"
+            android:layout_marginTop="10dp"
+            android:textSize="16dp"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:text="Model rambut selanjutnya yang akan dibahas adalah gaya rambut pria wajah lonjong yang tepat untuk pemilik wajah lonjong. Wajah lonjong ini memiliki ciri khas wajah yang lebih panjang dari lebar tulang pipi disertai dagu yang berbentuk bulat, dan secara keseluruhan sebenarnya berbentuk bulat namun lebih memanjang secara vertikal. Berikut ciri dan bentuk khas dari wajah lonjong yang menggunakan model rambut:"/>
+
+        <TextView
+            android:textAppearance="@style/TextAppearance.AppCompat"
+            android:layout_marginLeft="8dp"
+            android:layout_marginRight="8dp"
+            android:layout_marginTop="10dp"
+            android:textSize="16dp"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:text="Pemilik wajah berbentuk lonjong bisa dibilang cocok dengan berbagai model rambut, meski harus tetap memilih yang tepat dan menghindari model yang akan membuat wajah tampak semakin panjang.
+   "/>
+        <TextView
+            android:textAppearance="@style/TextAppearance.AppCompat"
+            android:layout_marginLeft="8dp"
+            android:layout_marginRight="8dp"
+            android:layout_marginTop="10dp"
+            android:textSize="16dp"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:text=" Bagi Anda pemilik wajah berbentuk lonjong dapat menggunakan model rambut yang pendek untuk mencocokkan dengan bentuk wajah.
+    "/>
+        <TextView
+            android:textAppearance="@style/TextAppearance.AppCompat"
+            android:layout_marginLeft="8dp"
+            android:layout_marginRight="8dp"
+            android:layout_marginTop="10dp"
+            android:textSize="16dp"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:text="Meski bentuk wajah lonjong terbilang proporsional karena tampak simetris, model gaya rambut klasik-lah yang tampak paling cocok untuk bentuk wajah Anda dengan perpaduan kedua sisi rambut lebih pendek dan bagian tengah dibiarkan panjang."/>
+
+        <TextView
+            android:textAppearance="@style/TextAppearance.AppCompat"
+            android:layout_marginLeft="8dp"
+            android:layout_marginRight="8dp"
+            android:layout_marginTop="10dp"
+            android:textSize="16dp"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:text="Sebaiknya Anda menghindari gaya rambut yang panjang ke bawah karena akan membuat wajah terlihat semakin panjang. Anda juga perlu menjauhi penggunaan poni karena bisa membuat wajah Anda justru tampak bulat dan tidak proporsional lagi."/>
+
+        <ImageView
+            android:id="@+id/ImageView8"
+            app:srcCompat="@drawable/wajahpanjang"
+            android:layout_width="120dp"
+            android:layout_height="120dp"
+            android:layout_gravity="center"
+            android:layout_marginTop="20dp"/>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:layout_marginTop="20dp"
+            android:textSize="30dp"
+            android:text="WAJAH PANJANG"
+            android:textStyle="bold|italic" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_marginLeft="8dp"
+            android:layout_marginTop="10dp"
+            android:textSize="16dp"
+            android:layout_marginRight="8dp"
+            android:text="Bentuk wajah selanjutnya yang akan dibahas adalah wajah panjang, yang merupakan perpaduan wajah oval dan persegi namun memiliki ukuran yang lebih panjang. Karena wajah dengan bentuk panjang ini memiliki ukuran paling panjang dibandingkan bentuk lainnya, sebaiknya Anda menghindari model rambut yang akan membuatnya tampak lebih panjang lagi. Anda bisa mencari model rambut yang akan membuat wajah tampak lebih proporsional dengan mengurangi kesan panjang wajah dan menyeimbangkan antara model dengan bentuk wajah."
+            android:textAppearance="@style/TextAppearance.AppCompat" />
+
+        <TextView
+            android:textAppearance="@style/TextAppearance.AppCompat"
+            android:layout_marginLeft="8dp"
+            android:layout_marginRight="8dp"
+            android:layout_marginTop="10dp"
+            android:layout_marginBottom="50dp"
+            android:textSize="16dp"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:text="Anda yang memiliki bentuk wajah panjang bisa memilih model rambut yang justru lebih panjang karena dapat menyamarkan panjang wajah. Anda bisa menambahkan poni pada kening sehingga memberikan efek dan kesan wajah Anda menjadi lebih pendek atau setidaknya tidak sepanjang sebelumnya. Yang perlu Anda hindari adalah potongan model rambut pendek, karena model ini akan semakin mempertegas kepanjangan wajah Anda. Anda juga perlu menghindari potongan rambut yang bermodel lebih tipis dan pendek di bagian samping kanan dan kiri, namun memilih potongan rambut yang bisa berfokus ke arah wajah."/>
+
+
+    </LinearLayout>
+
+</ScrollView>

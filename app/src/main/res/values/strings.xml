@@ -1,0 +1,57 @@
+<resources>
+    <string name="app_name">Barber3</string>
+    <string name="location">LOCATION</string>
+    <string name="barber_bronze">Barber Bronze</string>
+    <string name="title_activity_maps">Map</string>
+    <string name="title_activity_maps2">Map</string>
+    <string name="luxo_barber_shop">Luxo Barber Shop</string>
+    <string name="click_here_to_get_location">Click Here To Get Location</string>
+    <string name="dpr_barber_shop">DPR Barber Shop</string>
+    <string name="title_activity_maps_dpr">Map</string>
+    <string name="title_activity_maps_arfa">Map</string>
+    <string name="arfa_barber_shop">Arfa Barber Shop</string>
+    <string name="title_activity_maps_dlucky">Map</string>
+    <string name="d_lucky_cuts_barbershop">D\'Lucky Cuts BarberShop</string>
+    <string name="title_activity_maps_yugen">Map</string>
+    <string name="yugen_cuts_and_coffee">Yugen Cuts And Coffee</string>
+    <string name="daniel_s_barbershop">Daniel\'s BarberShop</string>
+    <string name="title_activity_maps_daniels">Map</string>
+    <string name="title_activity_maps_hairock">Map</string>
+    <string name="hairock_barbershop">Hairock BarberShop</string>
+    <string name="contex_style">    Mau Ganteng Terus? Kamu Wajib Punya 4 Alat Styling Rambut ini, Guys!</string>
+    <string name="pomade_caption_1">Kamu pernah nggak sih merasa penasaran sama rambut David Beckham yang kelihatannya on-point setiap saat? Rahasianya ada di pomade rambut, guys!</string>
+    <string name="pomade_caption_2">Alat styling rambut yang satu ini bisa membuat rambutmu mudah diatur dan terlihat mengkilap. Sekali dipakai, pomade rambut bisa bertahan hingga seharian, lho. Rambut pun rasanya jadi lebih lembut dan nggak kaku lagi. Udah pernah coba belum?</string>
+    <string name="sisir_caption1">Nggak cukup cuma dengan pomade, kamu juga wajib memiliki sisir pomade untuk melengkapi alat styling rambut di rumah. Sisir ini didesain khusus untuk merapikan dan menata rambut klimismu agar bertahan lama.</string>
+    <string name="sisir_caption2">Jangan sembarangan pakai sisir plastik biasa, soalnya salah-salah rambutmu malah jadi berantakan, guys! Pilih aja sisir pomade lipat yang mudah kamu masukin tas dan dibawa kemana-mana. Kamu jadi bisa rapikan kembali rambut sewaktu-waktu!</string>
+    <string name="gel_caption1">Kalau kamu nggak suka tampilan rambut yang terlalu klimis, kamu bisa gunakan alat styling rambut berupa hair gel. Kalau pomade membuat rambutmu tampak slick, gel rambut akan membuat tekstur rambut lebih kaku, sehingga style rambutmu bisa bertahan lebih lama.</string>
+    <string name="gel_caption2">Biasanya sih hair gel ini digunakan untuk menata rambut cepak untuk gaya mohawk atau jabrik. Sebaliknya, pomade justru lebih cocok untuk menata rambut dengan volume lebih panjang.</string>
+    <string name="clipper_caption1">Nah, alat styling rambut yang satu ini juga nggak boleh ketinggalan dong! Hair clipper bisa kamu andalkan untuk memotong dan merapikan rambut yang mulai panjang.</string>
+    <string name="clipper_caption2">Daripada repot harus ke barber bolak-balik, mendingan sediakan hair clipper sendiri di rumah. Cara pakainya juga mudah untuk dipelajari. Kalau sudah mahir, kamu pun bisa mengatur sendiri panjang-pendeknya rambut dan style yang kamu inginkan!</string>
+    <string name="memilih">Memilih model rambut pria wajah bulat yang tepat dan sesuai untuk jenis wajah bulat memang bisa dibilang susah-susah gampang. Jika model yang dipilih tidak tepat, bisa-bisa Anda terlihat lebih gemuk dan chubby dari yang sebenarnya. Berikut model yang cocok untuk wajah bulat:</string>
+    <string name="model">Model Poni Samping,
+        Model Under Cut,
+        Model Slicked Back</string>
+    <string name="jangankan">Jangankan mendapatkan penampilan oke, potongan rambut baru bisa-bisa malah akan membuat penampilan lebih buruk dari biasanya. Namun tidak berarti mendapatkan model rambut yang tepat untuk wajah bulat adalah hal yang mustahil, jadi jangan menyerah dulu ya. Berikut bentuk ciri-ciri model rambut untuk wajah bulat saat memakai model rambut yang cocok untuk wajahnya:</string>
+    <string name="ciri">Ciri bahwa Anda memiliki wajah bulat adalah tulang rahang yang tidak terlalu tajam serta panjang wajah yang hampir seukuran dengan lebar pipi. Karena wajah bulat tidak memiliki sudut dan garis yang menonjol di muka, maka model rambut yang tepat adalah yang dapat memberikan kesan tinggi. Penambahan volume rambut di bagian atas juga merupakan poin penting dalam memilih jenis model rambut yang tepat untuk wajah bulat.</string>
+    <string name="anda">Anda dapat memilih model rambut pendek seperti model spike yang dapat memperkuat aksen wajah dan menampakkan siluet lonjong di muka. Anda juga bisa memilih model potongan rambut persegi dengan sisi kanan dan kiri tetap pendek serta memaksimalkan volume rambut di bagian atas. Namun Anda juga perlu menghindari model potongan rambut pria yang terlalu pendek atau terlalu gondrong hingga sebahu karena justru akan memperjelas bentuk bulat dari wajah Anda. Anda bisa menambahkan poni jika dirasa cocok dan tentunya tidak membuat wajah terlihat semakin bulat.</string>
+    <string name="model2">Model Puffy Undercut, Model Pompadour, Model Fauxhawk</string>
+
+    <string name="la1">Selanjutnya kita akan membahas model rambut pria sesuai bentuk Wajah yang tepat untuk pemilik wajah berbentuk kotak atau persegi, yang bisa dibilang cocok dengan gaya apapun. Namun sebelumnya Anda perlu mengetahui bagaimana ciri-ciri dan karakteristik wajah persegi ini. </string>
+
+     <string name="la2">Berikut model rambut yang sangat cocok untuk wajah persegi:  </string>
+        <string name="la3">Model Front Puff, Model Straight, Model Buzzcut  </string>
+        <string name="la4">Pada dasarnya, wajah persegi memiliki ukuran panjang dan lebar dengan perbandingan yang sama, namun ditambah dengan dagu yang tampak lebih tajam. Bentuk wajah persegi ini membuat pemiliknya terlihat lebih macho dan maskulin karena bentuk rahang yang bagus sehingga tampak kuat dan gagah.
+        </string>
+        <string name="la5">Karenanya jika Anda memiliki wajah berbentuk persegi, Anda bisa memilih model rambut yang dapat semakin menegaskan bentuk rahang dan garis dahi Anda.
+        Potongan rambut yang bisa Anda pilih untuk tujuan ini adalah model rambut belah pinggir dan cepak sekaligus yang akan mengunggulkan sisi maskulin diri Anda.
+        Namun jika Anda ingin terlihat lebih lembut tanpa terlihat sangar, Anda bisa memilih model potongan rambut yang lebih halus sehingga menyamarkan garis tegas dahi dan rahang Anda.
+        Beberapa model potongan rambut pendek yang cocok untuk pemilik wajah persegi adalah undercut dengan bentuk cepak dan tipisnya, atau faux hawk dengan keunikan graasi rambut yang membuat Anda tampak lebih menarik.
+        Pemilik wajah berbentuk persegi juga cocok memilik model potongan rambut yang semi panjang atau bahkan panjang sekaligus karena memang cocok dengan berbagai jenis gaya rambut. Namun sebaiknya Anda tidak memotong rambut dengan model belah tengah atau tebal hanya pada satu sisi karena akan memudarkan sisi maskulin pada diri Anda.
+</string>
+
+
+
+
+
+
+</resources>
